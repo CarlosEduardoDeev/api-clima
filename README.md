@@ -11,7 +11,7 @@
  <img alt="GitHub last commit" src="https://img.shields.io/github/watchers/CarlosEduardoDeev/api-clima.svg">
 </p>
 <div id="#Sobre">
-## 💻 Sobre o projeto
+	<h2> 💻 Sobre o projeto </h2>
 Projeto desenvolvido para consultar o clima em Países, cidades com o intuito de estudo sobre as tecnologias utilizadas. 
 </div>
 
@@ -40,7 +40,7 @@ Tabela de conteúdos
 
 
 <div id="#como-usar">
-### Pré-requisitos
+	<h2> Pré-requisitos </h2>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
@@ -50,7 +50,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/CarlosEduardoDeev/api-clima.git>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd api-clima
@@ -70,11 +70,11 @@ $ npm start
 </div>
 	
 <div id="#tecnologias">
-## 🛠 Tecnologias
+	<h2>🛠 Tecnologias</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [React][reactjs]
+- ReactJS
 	
 </div>
 
