@@ -28,7 +28,7 @@ Tabela de conteúdos
 
 
 <div id="#Features">
-### Features
+	<h2>Features</h2>
 
 - [x] Estrutura dos Dados
 - [x] HTML/CSS
