@@ -10,9 +10,11 @@
  <img alt="Siga no Twitter" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
  <img alt="GitHub last commit" src="https://img.shields.io/github/watchers/CarlosEduardoDeev/api-clima.svg">
 </p>
-
+<div id="#Sobre">
 ## 💻 Sobre o projeto
 Projeto desenvolvido para consultar o clima em Países, cidades com o intuito de estudo sobre as tecnologias utilizadas. 
+</div>
+
 
 Tabela de conteúdos
 =================
@@ -21,12 +23,11 @@ Tabela de conteúdos
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Features](#Features)
    * [Rodando Projeto](#como-usar)
-   * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
 
 
-
+<div id="#Features">
 ### Features
 
 - [x] Estrutura dos Dados
@@ -34,11 +35,11 @@ Tabela de conteúdos
 - [x] Consumir API
 - [x] Adicionar nova consultas
 - [ ] Adicionar API google Maps
+</div>
 
 
 
-
-
+<div id="#como-usar">
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -66,9 +67,14 @@ $ npm start
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
 ```
+</div>
+	
+<div id="#tecnologias">
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React][reactjs]
+	
+</div>
 
