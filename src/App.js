@@ -37,12 +37,10 @@ function App() {
 
 
   }
-
-
-
   return (
 
-    <div className="app ">
+    <div className={
+      (typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? "app warm" : "app") : 'app bgdefault'}>
       <main>
         <div className="search-box">
           <input
@@ -65,7 +63,14 @@ function App() {
               <div className="temp">
                 {Math.round(weather.main.temp)}°C
               </div>
-              <div className="weather">Sunny</div>
+                
+              <div className="weather">{weather.weather[0].main}</div>
+                <div className="detalhes">
+                    <div className="details">Winds: {(weather.wind.speed)}KM/H</div>
+                    <div className="details">Temp Min: {Math.round(weather.main.temp_min)}°C</div>
+                    <div className="details">Temp Max: {Math.round(weather.main.temp_max)}°C</div>
+                    <div className="details">Humidity: {Math.round(weather.main.humidity)}</div>
+                </div>
             </div>
           </div>
         ) : ('')}

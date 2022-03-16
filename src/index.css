@@ -11,15 +11,19 @@ body{
 }
 
 .app.warm{
-  background-image: url('./assets/warm-bg.jpg');
-
+  background-image: url('./assets/sun-63.gif');
+  transition: 0.4s ease-out;
+}
+.app.bgdefault{
+  background-image: url('./assets/gray-painted-background.jpg');
+  transition: 0.4s ease-out;
 }
 
 .app{
-  background-image: url('./assets/cold-bg.jpg');
+  background-image: url('./assets/8d867d2cf4355f24931474bc766a531197211a3cr1-540-304_hq.gif');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4s ease-out;
 
 }
 main{
@@ -42,7 +46,7 @@ main{
   outline: none;
 
   background-color: rgba(255,255,255,0.5);
-  border-radius: 0px 0px 16px;
+  border-radius: 0px 0px 16px 16px;
   margin-top: -25px;
   box-shadow: 0px 5px rgba(0,0,0,0.2 ) ;
   
@@ -57,7 +61,7 @@ main{
 }
 .location-box .location{
   color: white;
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 500;
   text-align: center;
   text-shadow: 2px 2px rgba(0,0,0,0.2 );
@@ -72,6 +76,17 @@ main{
 }
 .weather-box{
   text-align: center;
+}
+.detalhes{
+  display: flex;
+  flex-direction: row;
+  font-size: 23px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  
+  text-align: center;
+  text-shadow: 2px 2px rgba(0,0,0,0.2 );
 }
 .weather-box .temp {
   font-size: 102px;
@@ -120,21 +135,31 @@ main{
 }
 
 
-/* @media screen and (min-width:1000px) {
+ @media screen and (min-width:1000px) {
   
   main{
     transition: 0.2s;
     border: 2px solid red;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-
-
-
   }
-  .search-box .search-bar{
+  .search-box {
+    display: flex;
     width: 350px;
-
+  }
+  .search-bar{
+    margin-bottom: 60px;
+    background-color: rgba(255,255,255,0.5);
+    margin-top: -25px;
+    box-shadow: 0px 5px rgba(0,0,0,0.2 ) ;
+  }
+  
+  .box-glass{
+    width: 500px;
+    
   }
 
   
-} */
+} 
