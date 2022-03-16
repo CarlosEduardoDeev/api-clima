@@ -65,14 +65,17 @@ function App() {
               </div>
                 
               <div className="weather">{weather.weather[0].main}</div>
-                <div className="detalhes">
-                    <div className="details">Winds: {(weather.wind.speed)}KM/H</div>
+                
+            </div>
+            <div className="detalhes">
+                    <div className="details">Ventos: {(weather.wind.speed)}KM/H</div>
                     <div className="details">Temp Min: {Math.round(weather.main.temp_min)}°C</div>
                     <div className="details">Temp Max: {Math.round(weather.main.temp_max)}°C</div>
-                    <div className="details">Humidity: {Math.round(weather.main.humidity)}</div>
+                    <div className="details">Umidade: {Math.round(weather.main.humidity)}</div>
                 </div>
-            </div>
-          </div>
+            
+         </div>
+         
         ) : ('')}
       </main>
     </div>
