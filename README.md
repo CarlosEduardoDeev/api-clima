@@ -21,10 +21,17 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#Sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Preview](#Preview)
    * [Features](#Features)
    * [Rodando Projeto](#como-usar)
    * [Tecnologias](#tecnologias)
 <!--te-->
+<div style="display: inline_block" align="center">
+	<h2>Mobile</h2>
+<a href="https://gifyu.com/image/Sp2U1"><img src="https://s10.gifyu.com/images/React-App---Opera-2022-03-16-19-55-49.gif" alt="React-App---Opera-2022-03-16-19-55-49.gif" border="0"></a>
+	<h2>Web</h2>
+<a href="https://gifyu.com/image/Sp2UA"><img src="https://s10.gifyu.com/images/React-App---Opera-2022-03-16-19-55-23.gif" alt="React-App---Opera-2022-03-16-19-55-23.gif" border="0"></a>
+</div>
 
 
 <div id="#Features">
@@ -36,6 +43,7 @@ Tabela de conteúdos
 - [x] Adicionar nova consultas
 - [ ] Adicionar API google Maps
 </div>
+
 
 
 
